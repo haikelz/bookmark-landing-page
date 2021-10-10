@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="font-Poppins">
+  <!-- Bagian Header -->
+  <header>
+    <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+      <div class="py-1"><img src="./imgs/logo-bookmark.svg" alt="" /></div>
+      <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+        <li class="cursor-pointer">Fitur</li>
+        <li class="cursor-pointer">Harga</li>
+        <li class="cursor-pointer">Kontak</li>
+        <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+      </ul>
+      <div class="flex sm:hidden flex-1 justify-end">
+        <i class="text-2xl fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Bagian Hero -->
+  <section class="relative">
+    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+
+      <!-- Bagian Isi -->
+      <div class="flex flex-1 flex-col items-center lg:items-start">
+        <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+          A Simple Bookmark Manager
+        </h2>
+        <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+          Sebuah Website pengelola bookmark yang simpel dan fungsional. Cobalah sekarang secara <b>GRATIS</b>
+        </p>
+        <div class="flex justify-center flex-wrap gap-6">
+          <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Get it on Chrome
+          </button>
+          <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+            Firefox
+          </button>
+        </div>
+      </div>
+
+      <!-- Bagian Gambar -->
+      <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+        <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./imgs/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- Rounded -->
+    <div
+      class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg: -bottom-28 lg:-right-26">
+    </div>
+  </section>
+
+  <!-- Bagian Fitur -->
+  <section class="bg-bookmark-white py-28 mt-20 lg:mt-60">
+
+    <!-- Heading -->
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+      <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+      <p class="text-center text-bookmark-grey mt-4">
+        Tujuan kami adalah untuk membuat penandaan Website yang anda suka jadi lebih mudah. Bookmarks anda disimpan di
+        perangkat anda, jadi anda bisa mengaksesnya dimanapun dan kapanpun.
+      </p>
+    </div>
+
+    <!-- Bagian Fitur #1 -->
+    <div class="relative mt-28 lg:mt-24">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+
+        <!-- Gambar #1-->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./imgs/illustration-features-tab-1.png"
+            alt="" />
+        </div>
+
+        <!-- Bagian Konten (Poin Utama) -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl text-bookmark-blue">Bookmark dalam satu klik</h1>
+          <p class="text-bookmarks-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Kelola bookmark sesukamu. Tampilannya yang cantik membuatmu semakin mudah mengelola Website Favoritmu.
+          </p>
+          <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Lebih Lanjut
+          </button>
+
+          <!-- Rounded #2 -->
+          <div
+            class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bagian Fitur #2 -->
+    <div class="relative mt-28 lg:mt-52">
+      <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+
+        <!-- Gambar #1-->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./imgs/illustration-features-tab-2.png"
+            alt="" />
+        </div>
+
+        <!-- Bagian Konten (Poin Utama) -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl text-bookmark-blue">Intelligent Search</h1>
+          <p class="text-bookmarks-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Fitur Intelligent Search memudahkanmu untuk menemukan Website Favoritmu.
+          </p>
+          <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Lebih Lanjut
+          </button>
+
+          <!-- Rounded #2 -->
+          <div
+            class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bagian Fitur #3 -->
+    <div class="relative mt-28 lg:mt-52">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+        
+        <!-- Gambar #3-->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./imgs/illustration-features-tab-3.png"
+          alt="" />
+        </div>
+        
+        <!-- Bagian Konten (Poin Utama) -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl text-bookmark-blue">Bagikan Bookmarkmu</h1>
+          <p class="text-bookmarks-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Kamu bisa membagikan bookmarkmu kepada orang terdekat secara cepat dan mudah. 
+          </p>
+          <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Lebih Lanjut
+          </button>
+          
+          <!-- Rounded #4 -->
+          <div class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="py-20 mt-20 ">
+    <!-- Heading #2 -->
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+      <h1 class="text-3xl text-center text-bookmark-blue">Download the Extensions</h1>
+      <p class="text-center text-bookmark-grey mt-4">
+        Bookmark tersedia di berbagai Browser. Jika ada browser pilihanmu yang belum mendapatkan Bookmarkzz, silahkan laporkan kepada kami. 
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg nt-16">
+      
+      <!-- Card 1 -->
+      <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+        <div class="p-6 flex flex-col items-center">
+          <img src="./imgs/logo-chrome.svg" alt="">
+          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg"> Tambahkan ke Chrome</h3>
+          <p class="mb-2 text-bookmark-grey font-light">Minimum Version: 67</p>
+        </div>
+        <hr class="border-b border-bookmark-white">
+        
+        <div class="flex p-6">
+          <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Add & Install Extension
+          </button>
+        </div>
+      </div>
+
+      <!-- Cards 2 -->
+      <div class="flex flex-col rounded-md shadow-md lg:my-8 lg:mb-8">
+        <div class="p-6 flex flex-col items-center">
+          <img src="./imgs/logo-firefox.svg" alt="">
+          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg"> Tambahkan ke Firefox</h3>
+          <p class="mb-2 text-bookmark-grey font-light">Minimum Version: 67</p>
+        </div>
+        <hr class="border-b border-bookmark-white">
+        
+        <div class="flex p-6">
+          <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Add & Install Extension
+          </button>
+        </div>
+      </div>
+
+      <!-- Cards 3 -->
+      <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+        <div class="p-6 flex flex-col items-center">
+          <img src="./imgs/logo-opera.svg" alt="">
+          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg"> Tambahkan ke Opera </h3>
+          <p class="mb-2 text-bookmark-grey font-light">Minimum Version: 67</p>
+        </div>
+        <hr class="border-b border-bookmark-white">
+        
+        <div class="flex p-6">
+          <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
+            Add & Install Extension
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pertanyaan -->
+  <section class="bg-bookmark-white py-20">
+    <div class="container">
+      <!-- Heading #3 -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Frequently Asked Question</h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          Berikut kumpulan pertanyaan yang sering ditanyakan kepada kami. Jika ada hal yang anda belum ketahui, jangan segan untuk bertanya kepada kami. 
+        </p>
+      </div>
+
+      <!-- Kumpulan Pertanyaan -->
+      <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1">Apa itu Bookmark?</span>
+          <i class="text-bookmark-purple fas fa-chevron-down"></i>
+        </div>
+
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1">Bagaimana cara kalian mengambil keuntungan dari karya yang kalian buat?</span>
+          <i class="text-bookmark-purple fas fa-chevron-down"></i>
+        </div>
+
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1">Apakah Privasi saya akan terganggu dengan menggunakan Bookmark?</span>
+          <i class="text-bookmark-purple fas fa-chevron-down"></i>
+        </div>
+
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1">Apakah Bookmark juga ada di Android?</span>
+          <i class="text-bookmark-purple fas fa-chevron-down"></i>
+        </div>
+
+        <button type="button" class="mt-12 flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black">
+          Lebih Lanjut
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak yang bisa dihubungi -->
+  <section class="bg-bookmark-purple text-white py-20">
+    <div class="container">
+      <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+        <p class="font-light uppercase text-center mb-8">Sudah banyak orang yang memakai bookmark, kamu kapan?</p>
+        <h1 class="text-3xl text-center">Tunggu update terbaru kami selanjutnya! </h1>
+        <div class="flex flex-col sm:flex-row gap-6 mt-8">
+          <input type="text" placeholder="Masukkan Alamat E-mailmu" class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"/>
+          <button type="button" class="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black">
+            Hubungi Kami
+          </button>        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Footer -->
+  <footer class="bg-bookmark-blue py-8">
+    <div class="container flex flex-col md:flex-row items-center">
+      <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+        <img src="./imgs/logo-bookmark-white.png" alt="">
+        <ul class="flex text-white uppercase gap-12 text-xs">
+          <li class="cursor-pointer">Fitur</li>
+          <li class="cursor-pointer">Harga</li>
+          <li class="cursor-pointer">Kontak</li>
+        </ul>
+      </div>
+      <div class="flex gap-10 mt-12 md:mt-0">
+        <a href="https://github.com/haikelz" target="blank"><i class="text-white text-2xl fab fa-github"></i></a>
+        <a href="https://facebook.com/kelgfx" target="blank"><i class="text-white text-2xl fab fa-facebook"></i></a>
+        <a href="https://haikelz.net" target="blank"><i class="text-white text-2xl fas fa-code"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
